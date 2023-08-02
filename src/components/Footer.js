@@ -1,5 +1,5 @@
 import React from "react";
-import GithubIcon from "@material-ui/icons/Github";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedinIcon from "@material-ui/icons/LinkedIn";
 import '../styles/Footer.css'; 
@@ -8,11 +8,12 @@ function Footer() {
   return (
     <div className="footer" >
       <div className="socialMedia">
-        <GithubIcon />
-        <TwitterIcon />
+        <GitHubIcon />
         <LinkedinIcon />
+        <TwitterIcon />
+        
       </div>
-        <p>&copy; 2023</p>
+        <p>&copy; 2023 Copyright Shoko Takahashi</p>
     </div>
   );
 }
