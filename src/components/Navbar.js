@@ -9,10 +9,10 @@ function Navbar() {
         <button></button>
       </div>
       <div className="Links">
-        <Link to="/About">About</Link>
-        <Link to="/Portfolio">Portfolio</Link>
-        <Link to="/Resume">Resume</Link>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/react-portfolio/About">About</Link>
+        <Link to="/react-portfolio/Portfolio">Portfolio</Link>
+        <Link to="/react-portfolio/Resume">Resume</Link>
+        <Link to="/react-portfolio/Contact">Contact</Link>
       </div>
     </div>
   );
