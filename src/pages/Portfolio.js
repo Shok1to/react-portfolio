@@ -9,15 +9,10 @@ export default function Portfolio() {
     <div className='portfolio'>
       <h1>My Personal Projects</h1>
       <div className='portfolioList'>
-        {PortfolioList.map((portfolio, idx) => {
-          return <PortfolioItem id={idx} name={portfolio.name} image={portfolio.image} />;
+        {PortfolioList.map((portfolio) => {
+          return <PortfolioItem name={portfolio.name} image={portfolio.image} url={portfolio.url}/>;
         })}
-        
-        
       </div>
-      
-        
-     
     </div>
   );
 }

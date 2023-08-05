@@ -17,7 +17,7 @@ function App() {
           <Route path="/react-portfolio" element={<About />} />
           <Route path="/react-portfolio/About" element={<About />} />
           <Route path="/react-portfolio/Portfolio" element={<Portfolio />} />
-          <Route path="/react-portfolio/Portfolio/:id" element={<PortfolioDisplay />} />
+          <Route path="`${url}`" element={<PortfolioDisplay />} />
           <Route path="/react-portfolio/Resume" element={<Resume />} />
           <Route path="/react-portfolio/Contact" element={<Contact />} />
         </Routes>
@@ -26,5 +26,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
