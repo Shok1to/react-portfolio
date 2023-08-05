@@ -1,0 +1,28 @@
+.portfolio {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .portfolio h1 {
+    margin-top: 50px;
+    color: #3e497a;
+    font-size: 35px;
+  }
+  .portfolio img {
+    width: 700px;
+    border-radius: 10px;
+  }
+  
+  .portfolio p {
+    font-size: 40px;
+    color: #3e497a;
+  }
+  
+  .portfolio svg {
+    font-size: 60px;
+    color: #3e497a;
+  }
