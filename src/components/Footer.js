@@ -8,9 +8,9 @@ function Footer() {
   return (
     <div className="footer" >
       <div className="socialMedia">
-        <GitHubIcon />
-        <LinkedinIcon />
-        <TwitterIcon />
+      <a href="https://github.com/Shok1to/"><GitHubIcon /></a>
+      <a href="https://www.linkedin.com/in/shoko-takahashi-466173287/"><LinkedinIcon /></a>
+      <a href="https://twitter.com/JPvsCANADA/"><TwitterIcon /></a>
         
       </div>
         <p>&copy; 2023 Copyright Shoko Takahashi</p>

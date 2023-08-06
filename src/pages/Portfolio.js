@@ -1,6 +1,7 @@
 import React from 'react';
 import PortfolioItem from '../components/PortfolioItem';
-import { PortfolioList } from '../helpers/PortfolioList'
+import { PortfolioList } from '../helpers/PortfolioList';
+
 
 import '../styles/Portfolio.css'; 
 
