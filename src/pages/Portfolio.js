@@ -11,7 +11,7 @@ export default function Portfolio() {
       <h1>My Personal Projects</h1>
       <div className='portfolioList'>
         {PortfolioList.map((portfolio) => {
-          return <PortfolioItem name={portfolio.name} image={portfolio.image} url={portfolio.url}/>;
+          return <PortfolioItem name={portfolio.name} image={portfolio.image} url={portfolio.url} gitRepo={portfolio.gitRepo}/>;
         })}
       </div>
     </div>
