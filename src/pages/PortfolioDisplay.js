@@ -5,8 +5,8 @@
 // import "../styles/PortfolioDisplay.css";
 
 // function PortfolioDisplay() {
-//     const { id } = useParams();
-//     const portfolio = PortfolioList[id]
+//     const { gitRepo } = useParams();
+//     const portfolio = PortfolioList[gitRepo]
 //     return (
 //     <div className="portfolio">
 //         <h1>{portfolio.name}</h1>
