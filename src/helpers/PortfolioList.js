@@ -9,32 +9,38 @@ export const PortfolioList =[
   {
     name: "Code quiz",
     image: project1,
-    url: "https://shok1to.github.io/code-quiz/"
+    url: "https://shok1to.github.io/code-quiz/",
+    gitRepo: "https://github.com/Shok1to/code-quiz"
   },
   {
     name: "Weather forecasts",
     image: project2,
-    url: "https://shok1to.github.io/weather-forecasts//"
+    url: "https://shok1to.github.io/weather-forecasts//",
+    gitRepo: "https://github.com/Shok1to/weather-forecasts"
   },
   {
     name: "Work Day Scheduler",
     image: project3,
-    url: "https://shok1to.github.io/WorkDay-Scheduler/"
+    url: "https://shok1to.github.io/WorkDay-Scheduler/",
+    gitRepo: "https://github.com/Shok1to/WorkDay-Scheduler"
   },
   {
     name: "StarSigns",
     image: project4,
-    url: "https://kemcclen.github.io/StarSigns/"
+    url: "https://kemcclen.github.io/StarSigns/",
+    gitRepo: "https://github.com/kemcclen/StarSigns"
   },
   {
     name: "Note Taker",
     image: project5,
-    url: "https://powerful-crag-07881-ccf657f26c19.herokuapp.com/"
+    url: "https://powerful-crag-07881-ccf657f26c19.herokuapp.com/",
+    gitRepo: "https://github.com/Shok1to/Note-Taker"
   },
   {
     name: "Recipe Sharing",
     image: project6,
-    url: "https://recipe-sharing-app-a59fd551b240.herokuapp.com/"
+    url: "https://recipe-sharing-app-a59fd551b240.herokuapp.com/",
+    gitRepo: "https://github.com/phillipkujawa/recipe_sharing_platform-group5"
   },
 
 
