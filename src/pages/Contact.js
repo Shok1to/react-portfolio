@@ -70,7 +70,14 @@ export default function Contact() {
 
 
   return (
-    <div>
+    <div style ={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      flexDirection:"column",
+      height: "100%",
+      width: "100%",
+    }}>
       <h1>Contact</h1>
       <p>I am always open to networking and collaboration opportunities.</p>
       <p>Let's connect and create something amazing together!</p>
@@ -102,7 +109,7 @@ export default function Contact() {
         </div>
         <div className="form-field">
           <label for="message">Message:</label>
-          <input 
+          <textarea 
           value={message}
           name="message"
           onChange={handleInputChange}
@@ -111,7 +118,7 @@ export default function Contact() {
           placeholder="message"
           
           
-        />
+        ></textarea>
           {/* {/* <textarea rows="4" id="message" name="message" required /> */}
         </div>
         <button type="submit" onClick={handleFormSubmit}>submit</button>
