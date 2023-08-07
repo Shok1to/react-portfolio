@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import '../styles/Navbar.css'; 
 
 function Navbar() {
@@ -9,10 +9,10 @@ function Navbar() {
         <button></button>
       </div>
       <div className="Links">
-        <Link to="/react-portfolio/About">About</Link>
-        <Link to="/react-portfolio/Portfolio">Portfolio</Link>
-        <Link to="/react-portfolio/Resume">Resume</Link>
-        <Link to="/react-portfolio/Contact">Contact</Link>
+        <NavLink to="/react-portfolio/About" activeClassName="active">About</NavLink>
+        <NavLink to="/react-portfolio/Portfolio" activeClassName="active">Portfolio</NavLink>
+        <NavLink to="/react-portfolio/Resume" activeClassName="active">Resume</NavLink>
+        <NavLink to="/react-portfolio/Contact" activeClassName="active">Contact</NavLink>
       </div>
     </div>
   );

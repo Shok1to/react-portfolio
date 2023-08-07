@@ -25,8 +25,8 @@
   
   .portfolioItem {
     border-radius: 15px;
-    width: 300px;
-    height: 300px;
+    width: 60%;
+    height: 60%;
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -58,7 +58,7 @@
   }
   
   @media only screen and (max-width: 800px) {
-    .projectList {
+    .portfolioList {
       grid-template-columns: 1fr;
     }
   }
@@ -67,10 +67,10 @@
     .portfolioList {
       width: 100%;
     }
-    .portfolioItem {
+    /* .portfolioItem {
       width: 300px;
       height: 300px;
-    }
+    } */
   }
  
   a:visited {
