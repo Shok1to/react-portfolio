@@ -8,7 +8,7 @@ import '../styles/Portfolio.css';
 export default function Portfolio() {
   return (
     <div className='portfolio'>
-      <h1>My Personal Projects</h1>
+      <h1>Projects</h1>
       <div className='portfolioList'>
         {PortfolioList.map((portfolio) => {
           return <PortfolioItem name={portfolio.name} image={portfolio.image} url={portfolio.url} gitRepo={portfolio.gitRepo}/>;

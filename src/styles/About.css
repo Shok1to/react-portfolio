@@ -30,7 +30,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     color: #B3D8E6;
-    height: 50px;
+    
   }
   
   .about .prompt {
@@ -73,6 +73,14 @@
     
     .list {
       padding: 0;
+    }
+
+    .about-cont{
+      flex-direction: column-reverse;
+    }
+
+    .profile {
+      width: 350px;
     }
   
     
