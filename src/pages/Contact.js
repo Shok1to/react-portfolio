@@ -49,16 +49,18 @@ export default function Contact() {
   // handleSubmit function -> not much 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    
+    const validateEmail = (email) => {
+      const re = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+      return re.test(email);
+    };
 
     if (!validateEmail(email)) {
       setErrAlert('Email is invalid');
       return;
     };
     
-    const validateEmail = (email) => {
-      const re = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
-      return re.test(email);
-    };
+   
   
     // Alert the user their first and last name, clear the inputs
     alert(`Hello`);
