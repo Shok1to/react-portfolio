@@ -63,11 +63,13 @@ export default function Contact() {
    
   
     // Alert the user their first and last name, clear the inputs
-    alert(`Hello`);
+    
     setName('');
     setEmail('');
     setMessage('');
     setErrAlert('');
+
+    alert(`Thank you for sending your message.`);
   };
 
 
@@ -121,6 +123,12 @@ export default function Contact() {
           
           
         ></textarea>
+
+           {errAlert && (
+            <div>
+              <p className="error-msg">{errAlert}</p>
+            </div>
+          )}
           {/* {/* <textarea rows="4" id="message" name="message" required /> */}
         </div>
         <button type="submit" onClick={handleFormSubmit}>submit</button>

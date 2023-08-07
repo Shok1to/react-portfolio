@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Navbar />
         <Routes>
           <Route path="/react-portfolio" element={<About />} />
