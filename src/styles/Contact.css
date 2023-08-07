@@ -30,6 +30,15 @@ input[type=text] {
    
     
 }
+button {
+  justify-content: center;
+  padding: 10px;
+  margin: 15px;
+  background-color: #45B1E8;
+  border: solid 1px #45B1E8;
+  border-radius: 5px;
+  color: white;
+}
 
 
     
