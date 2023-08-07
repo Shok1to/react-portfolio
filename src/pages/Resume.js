@@ -1,11 +1,21 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import "../styles/Resume.css";
 export default function Home() {
   return (
-    <div>
+    <div style ={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      textAlign: "left",
+      flexDirection:"column",
+      height: "100%",
+      width: "100%",
+      
+    }}>
       <h2>Resume</h2>
-      <Link to = "/Shoko-Resume.pdf" target= "_blank" download>Download Resume</Link>
+    
+      <Link to = "/Shoko-Resume.pdf" target= "_blank" download >Download Resume</Link>
       
       <h3>Proficiencies:</h3>
           <ul>
