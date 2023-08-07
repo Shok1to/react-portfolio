@@ -1,9 +1,12 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function Home() {
   return (
     <div>
       <h2>Resume</h2>
+      <Link to = "/Shoko-Resume.pdf" target= "_blank" download>Download Resume</Link>
+      
       <h3>Proficiencies:</h3>
           <ul>
             <li>HTML</li>
@@ -21,5 +24,6 @@ export default function Home() {
             <li>React</li>
           </ul>
     </div>
+   
   );
 }
