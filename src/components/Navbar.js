@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import '../styles/Navbar.css'; 
 
-function Navbar({ currentPage, handleChangePage }) {
+function Navbar() {
+  const [currentPage, handleChangePage] = useState('About');
+    
   return (
     <div className="navbar">
       <div className="toggleButton">
@@ -11,7 +13,7 @@ function Navbar({ currentPage, handleChangePage }) {
       <div className="Links">
         <Link to="/react-portfolio/About" onClick={() => handleChangePage("About")}
             className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About</Link>
-            
+
         <Link to="/react-portfolio/Portfolio" onClick={() => handleChangePage("Portfolio")}
             className={currentPage === "Portfolio" ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
 
