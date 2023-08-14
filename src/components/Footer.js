@@ -9,7 +9,7 @@ function Footer() {
     <div className="footer" >
       <div className="socialMedia">
       <a href="https://github.com/Shok1to/"><GitHubIcon /></a>
-      <a href="https://www.linkedin.com/in/shoko-takahashi-466173287/"><LinkedinIcon /></a>
+      <a href="https://www.linkedin.com/in/shokotakahashi911/"><LinkedinIcon /></a>
       <a href="https://twitter.com/JPvsCANADA/"><TwitterIcon /></a>
         
       </div>
