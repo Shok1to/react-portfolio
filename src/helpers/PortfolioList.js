@@ -4,6 +4,7 @@ import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
 import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
+import project7 from '../assets/project7.png'
 
 export const PortfolioList =[
   {
@@ -42,6 +43,13 @@ export const PortfolioList =[
     url: "https://recipe-sharing-app-a59fd551b240.herokuapp.com/",
     gitRepo: "https://github.com/phillipkujawa/recipe_sharing_platform-group5"
   },
+  {
+    name: "Cadence",
+    image: project7,
+    url: "https://github.com/kemcclen/Cadence",
+    gitRepo: "https://cadence-music-8f49c24828dd.herokuapp.com/"
+  },
+
 
 
 ];
