@@ -4,6 +4,7 @@
   "homepage": "https://Shok1to.github.io/react-portfolio",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@material-ui/icons": "^4.11.3",

@@ -1,17 +1,30 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import "../styles/Contact.css";
+
 export default function Contact() {
 
-  // const [formState, setFormState]=useState({
-  //   name:'', 
-  //   email:'',
-  //   message:'',
-  // })
+  const form = useRef();
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'email', e.target, 'fDxGlF4nZXY1nK4Oi')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+
+  }
+
+  
   const [name, setName]=useState('');
   const [email, setEmail]=useState('');
   const [message, setMessage]=useState('');
   const [errAlert, setErrAlert]=useState('');
-  // const [ name, email, message] = formState;
+ 
 
   
   // ** handleChange function -> check to make sure contents of field are valid
@@ -86,7 +99,8 @@ export default function Contact() {
       <p>I am always open to networking and collaboration opportunities.</p>
       <p>Let's connect and create something amazing together!</p>
 
-      <form className='contact'>
+      <div className='contact'>
+      <form onSubmit={(sendEmail)}>
         <div className="form-field">
           <label for="name">Name:</label>
           <input
@@ -133,6 +147,7 @@ export default function Contact() {
         </div>
         <button type="submit" onClick={handleFormSubmit}>submit</button>
       </form>
+      </div>
 
 
 
