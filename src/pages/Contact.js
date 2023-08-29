@@ -1,12 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "../styles/Contact.css";
 
 export default function Contact() {
 
-  const form = useRef();
-
-  function sendEmail(e){
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('gmail', 'email', e.target, 'fDxGlF4nZXY1nK4Oi')
@@ -100,7 +98,7 @@ export default function Contact() {
       <p>Let's connect and create something amazing together!</p>
 
       <div className='contact'>
-      <form onSubmit={(sendEmail)}>
+      <form onSubmit={sendEmail}>
         <div className="form-field">
           <label for="name">Name:</label>
           <input
