@@ -22,7 +22,7 @@ function Navbar() {
 
         <Link to="/react-portfolio/Contact" onClick={() => handleChangePage("Contact")}
             className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact</Link> */}
-      <Link to="About" onClick={() => handleChangePage("About")}
+      <Link to="/About" onClick={() => handleChangePage("About")}
             className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About</Link>
 
         <Link to="/Portfolio" onClick={() => handleChangePage("Portfolio")}
