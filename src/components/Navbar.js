@@ -11,7 +11,7 @@ function Navbar() {
         <button></button>
       </div>
       <div className="Links">
-        <Link to="/react-portfolio/About" onClick={() => handleChangePage("About")}
+        {/* <Link to="/react-portfolio/About" onClick={() => handleChangePage("About")}
             className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About</Link>
 
         <Link to="/react-portfolio/Portfolio" onClick={() => handleChangePage("Portfolio")}
@@ -21,6 +21,17 @@ function Navbar() {
             className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>Resume</Link>
 
         <Link to="/react-portfolio/Contact" onClick={() => handleChangePage("Contact")}
+            className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact</Link> */}
+      <Link to="About" onClick={() => handleChangePage("About")}
+            className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About</Link>
+
+        <Link to="/Portfolio" onClick={() => handleChangePage("Portfolio")}
+            className={currentPage === "Portfolio" ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
+
+        <Link to="/Resume" onClick={() => handleChangePage("Resume")}
+            className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>Resume</Link>
+
+        <Link to="/Contact" onClick={() => handleChangePage("Contact")}
             className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact</Link>
       </div>
     </div>

@@ -16,11 +16,16 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-          <Route path="/react-portfolio" element={<About />} />
+          {/* <Route path="/react-portfolio" element={<About />} />
           <Route path="/react-portfolio/About" element={<About />} />
           <Route path="/react-portfolio/Portfolio" element={<Portfolio />} />
           <Route path="/react-portfolio/Resume" element={<Resume />} />
-          <Route path="/react-portfolio/Contact" element={<Contact />} />
+          <Route path="/react-portfolio/Contact" element={<Contact />} /> */}
+          <Route path="/" element={<About />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
