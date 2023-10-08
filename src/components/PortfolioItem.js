@@ -12,7 +12,7 @@ export default function PortfolioItem({ image, name, url, gitRepo }) {
     
      <div style={{ backgroundImage: `url(${image})` }} className='bgImage' />
      <h1>{name}</h1>
-     <a href={ gitRepo }><GitHubIcon /></a>
+     <a href={ gitRepo } target='_blank'><GitHubIcon /></a>
     </a>
     
   );
