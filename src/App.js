@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router,HashRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Router basename="/react-portfolio">
+      <HashRouter basename="/react-portfolio">
         <Header />
         <Navbar />
         <Routes>
@@ -28,7 +28,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
     </div>
   );
 }
