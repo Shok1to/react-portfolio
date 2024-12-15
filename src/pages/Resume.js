@@ -15,7 +15,7 @@ export default function Home() {
     }}>
       <h2>Resume</h2>
     
-      <a href="/Shoko-Resume-v2.pdf" target="_blank" download>Download Resume</a>
+      <Link to = "/Shoko-Resume-v2.pdf" target= "_blank" download >Download Resume</Link>
 
       
       <h3>Proficiencies:</h3>
