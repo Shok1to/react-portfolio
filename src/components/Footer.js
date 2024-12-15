@@ -13,7 +13,7 @@ function Footer() {
       <a href="https://twitter.com/JPvsCANADA/"><TwitterIcon /></a>
         
       </div>
-        <p>&copy; 2023 Copyright Shoko Takahashi</p>
+        <p>&copy; 2024 Copyright Shoko Takahashi</p>
     </div>
   );
 }
