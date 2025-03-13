@@ -1,7 +1,7 @@
 import React from "react";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedinIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedinIcon from '@mui/icons-material/LinkedIn';
 import '../styles/Footer.css'; 
 
 function Footer() {

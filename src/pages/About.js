@@ -10,9 +10,8 @@ export default function About() {
         <div className="about">
           <h2>Hello, I'm Shoko</h2>
           <div className="prompt">
-            <p>A Front-End Developer based in Toronto. I love creating user-friendly websites that look great.
-              I'm currently learning at the University of Toronto boot camp to improve my skills and stay updated with the latest web development trends.
-              Let's build something awesome together!</p>
+            <p>As a Front-End Developer based in Toronto, I’m passionate about creating user-friendly websites that are both functional and visually appealing. I’ve completed the Full Stack Web Development Boot Camp at the University of Toronto, where I honed my skills and stayed up-to-date with the latest trends in web development. Let’s build something awesome together!</p>
+            
           </div>
         </div>
         <div className='profile-container'>
